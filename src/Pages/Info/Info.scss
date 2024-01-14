@@ -1,0 +1,32 @@
+
+.fullInfo{
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+width: 90%;
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px auto;
+
+    .number {
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+    }
+    .title {
+      font-size: 18px;
+      color: #007bff;
+    //  margin-top: 10px;
+    }
+    .bodyCard {
+      font-size: 16px;
+      color: #555;
+      //margin-top: 10px;
+    }
+  }
+}
